@@ -6,6 +6,29 @@
 
 > Professional Python project: combining models with ensemble methods.
 
+## My Completed Work
+
+- [Phase 4 Technical Modification Notebook](https://github.com/Aboudlal/ml-05-ensembles/blob/main/notebooks/ml_05_abdellah.ipynb)
+- [Phase 5 Diabetes Classification Notebook](https://github.com/Aboudlal/ml-05-ensembles/blob/main/notebooks/ml_05_diabetes_abdellah.ipynb)
+- [Hosted Project Documentation](https://aboudlal.github.io/ml-05-ensembles/)
+- [Phase 5 Model Results](https://github.com/Aboudlal/ml-05-ensembles/blob/main/data/processed/phase5_model_results.csv)
+- [Phase 5 Feature Importance Results](https://github.com/Aboudlal/ml-05-ensembles/blob/main/data/processed/phase5_feature_importance.csv)
+
+## Custom Project Commands
+
+```powershell
+# Run the example Python application
+uv run python -m mlstudio.app_case
+
+# Build the project documentation
+uv run python -m zensical build
+
+# Preview the documentation locally
+uv run python -m zensical serve
+
+# Run all project checks
+git add -A
+uvx pre-commit run --all-files
 ## Project Description
 
 This project focuses on learning to combine models to get better predictions.
