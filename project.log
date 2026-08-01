@@ -174,3 +174,83 @@ Name: count, dtype: int64
 2026-07-31 20:26:58 | INFO | M05 | Compared: single tree vs. random forest vs. gradient boosting vs. extra trees
 2026-07-31 20:26:58 | INFO | M05 | Best model: random_forest with test accuracy = 1.000
 2026-07-31 20:26:58 | INFO | M05 | ========================
+2026-07-31 20:37:20 | INFO | M05 | === RUN START ===
+2026-07-31 20:37:20 | INFO | M05 | project=M05
+2026-07-31 20:37:20 | INFO | M05 | repo_dir=ml-05-ensembles
+2026-07-31 20:37:20 | INFO | M05 | python=3.14.2
+2026-07-31 20:37:20 | INFO | M05 | os=Windows 11
+2026-07-31 20:37:20 | INFO | M05 | shell=powershell
+2026-07-31 20:37:20 | INFO | M05 | cwd=notebooks
+2026-07-31 20:37:20 | INFO | M05 | github_actions=False
+2026-07-31 20:37:20 | INFO | M05 | Confirming installation:
+2026-07-31 20:37:20 | INFO | M05 |   python:       3.14.2
+2026-07-31 20:37:20 | INFO | M05 |   pandas:       3.0.5
+2026-07-31 20:37:20 | INFO | M05 |   numpy:        2.5.1
+2026-07-31 20:37:20 | INFO | M05 |   scikit-learn: 1.9.0
+2026-07-31 20:37:20 | INFO | M05 |   seaborn:      0.13.2
+2026-07-31 20:37:20 | INFO | M05 |   matplotlib:   3.11.1
+2026-07-31 20:37:51 | INFO | M05 | === RUN START ===
+2026-07-31 20:37:51 | INFO | M05 | project=M05
+2026-07-31 20:37:51 | INFO | M05 | repo_dir=ml-05-ensembles
+2026-07-31 20:37:51 | INFO | M05 | python=3.14.2
+2026-07-31 20:37:51 | INFO | M05 | os=Windows 11
+2026-07-31 20:37:51 | INFO | M05 | shell=powershell
+2026-07-31 20:37:51 | INFO | M05 | cwd=notebooks
+2026-07-31 20:37:51 | INFO | M05 | github_actions=False
+2026-07-31 20:37:51 | INFO | M05 | Confirming installation:
+2026-07-31 20:37:51 | INFO | M05 |   python:       3.14.2
+2026-07-31 20:37:51 | INFO | M05 |   pandas:       3.0.5
+2026-07-31 20:37:51 | INFO | M05 |   numpy:        2.5.1
+2026-07-31 20:37:51 | INFO | M05 |   scikit-learn: 1.9.0
+2026-07-31 20:37:51 | INFO | M05 |   seaborn:      0.13.2
+2026-07-31 20:37:51 | INFO | M05 |   matplotlib:   3.11.1
+2026-07-31 20:37:51 | INFO | M05 | Loading dataset: ..\data\raw\diabetes.csv
+2026-07-31 20:37:51 | INFO | M05 | Loaded: 70692 rows and 22 columns
+2026-07-31 20:44:31,397 | INFO | M05-PHASE5 | === PHASE 5 RUN START ===
+2026-07-31 20:44:31,399 | INFO | M05-PHASE5 | project_root=C:\Repos\ml-05-ensembles
+2026-07-31 20:44:31,400 | INFO | M05-PHASE5 | data_path=C:\Repos\ml-05-ensembles\data\raw\diabetes.csv
+2026-07-31 20:44:31,402 | INFO | M05-PHASE5 | python=3.14.2
+2026-07-31 20:44:31,408 | INFO | M05-PHASE5 | pandas=3.0.5
+2026-07-31 20:44:31,412 | INFO | M05-PHASE5 | numpy=2.5.1
+2026-07-31 20:44:31,416 | INFO | M05-PHASE5 | scikit-learn=1.9.0
+2026-07-31 20:44:31,420 | INFO | M05-PHASE5 | seaborn=0.13.2
+2026-07-31 20:44:31,431 | INFO | M05-PHASE5 | matplotlib=3.11.1
+2026-07-31 20:44:31,690 | INFO | M05-PHASE5 | Loaded diabetes dataset: 70692 rows, 22 columns
+2026-07-31 20:44:31,691 | INFO | M05-PHASE5 | Columns: ['Diabetes_binary', 'HighBP', 'HighChol', 'CholCheck', 'BMI', 'Smoker', 'Stroke', 'HeartDiseaseorAttack', 'PhysActivity', 'Fruits', 'Veggies', 'HvyAlcoholConsump', 'AnyHealthcare', 'NoDocbcCost', 'GenHlth', 'MentHlth', 'PhysHlth', 'DiffWalk', 'Sex', 'Age', 'Education', 'Income']
+2026-07-31 20:44:31,865 | INFO | M05-PHASE5 | Prepared modeling data: 70692 rows, 21 features
+2026-07-31 20:44:31,867 | INFO | M05-PHASE5 | Target classes: {0.0: 35346, 1.0: 35346}
+2026-07-31 20:44:31,872 | INFO | M05-PHASE5 | Missing feature values after preparation: 0
+2026-07-31 20:44:32,484 | INFO | M05-PHASE5 | Saved target distribution chart: C:\Repos\ml-05-ensembles\docs\images\phase5_target_distribution.png
+2026-07-31 20:44:32,618 | INFO | M05-PHASE5 | Training instances: 56553
+2026-07-31 20:44:32,619 | INFO | M05-PHASE5 | Testing instances: 14139
+2026-07-31 20:44:32,636 | INFO | M05-PHASE5 | Training model: Decision Tree
+2026-07-31 20:44:32,791 | INFO | M05-PHASE5 | Finished model: Decision Tree
+2026-07-31 20:44:32,792 | INFO | M05-PHASE5 | Training model: Random Forest
+2026-07-31 20:44:38,367 | INFO | M05-PHASE5 | Finished model: Random Forest
+2026-07-31 20:44:38,369 | INFO | M05-PHASE5 | Training model: Gradient Boosting
+2026-07-31 20:44:45,937 | INFO | M05-PHASE5 | Finished model: Gradient Boosting
+2026-07-31 20:44:45,938 | INFO | M05-PHASE5 | Training model: Extra Trees
+2026-07-31 20:44:53,676 | INFO | M05-PHASE5 | Finished model: Extra Trees
+2026-07-31 20:44:53,836 | INFO | M05-PHASE5 | Decision Tree | accuracy=0.7306 | balanced_accuracy=0.7306 | precision=0.7119 | recall=0.7748 | f1=0.7420 | roc_auc=0.8058
+2026-07-31 20:44:54,706 | INFO | M05-PHASE5 | Random Forest | accuracy=0.7360 | balanced_accuracy=0.7361 | precision=0.7192 | recall=0.7745 | f1=0.7458 | roc_auc=0.8115
+2026-07-31 20:44:54,878 | INFO | M05-PHASE5 | Gradient Boosting | accuracy=0.7539 | balanced_accuracy=0.7539 | precision=0.7337 | recall=0.7973 | f1=0.7642 | roc_auc=0.8296
+2026-07-31 20:44:55,781 | INFO | M05-PHASE5 | Extra Trees | accuracy=0.7235 | balanced_accuracy=0.7235 | precision=0.7075 | recall=0.7621 | f1=0.7338 | roc_auc=0.7932
+2026-07-31 20:44:55,799 | INFO | M05-PHASE5 | Best model: Gradient Boosting
+2026-07-31 20:44:55,801 | INFO | M05-PHASE5 | Saved model results: C:\Repos\ml-05-ensembles\data\processed\phase5_model_results.csv
+2026-07-31 20:44:56,957 | INFO | M05-PHASE5 | Saved model comparison chart: C:\Repos\ml-05-ensembles\docs\images\phase5_model_comparison.png
+2026-07-31 20:44:57,458 | INFO | M05-PHASE5 | Saved confusion matrix: C:\Repos\ml-05-ensembles\docs\images\phase5_confusion_matrix.png
+2026-07-31 20:44:58,422 | INFO | M05-PHASE5 | Saved feature importance chart: C:\Repos\ml-05-ensembles\docs\images\phase5_feature_importance.png
+2026-07-31 20:44:58,423 | INFO | M05-PHASE5 | Saved feature importance data: C:\Repos\ml-05-ensembles\data\processed\phase5_feature_importance.csv
+2026-07-31 20:44:58,457 | INFO | M05-PHASE5 | ========================
+2026-07-31 20:44:58,459 | INFO | M05-PHASE5 | PHASE 5 SUMMARY
+2026-07-31 20:44:58,461 | INFO | M05-PHASE5 | ========================
+2026-07-31 20:44:58,462 | INFO | M05-PHASE5 | Dataset rows: 70692
+2026-07-31 20:44:58,466 | INFO | M05-PHASE5 | Prepared features: 21
+2026-07-31 20:44:58,468 | INFO | M05-PHASE5 | Target: Diabetes_binary
+2026-07-31 20:44:58,469 | INFO | M05-PHASE5 | Best model: Gradient Boosting
+2026-07-31 20:44:58,471 | INFO | M05-PHASE5 | Best accuracy: 0.7539
+2026-07-31 20:44:58,472 | INFO | M05-PHASE5 | Best balanced accuracy: 0.7539
+2026-07-31 20:44:58,473 | INFO | M05-PHASE5 | Best F1: 0.7642
+2026-07-31 20:44:58,474 | INFO | M05-PHASE5 | Top feature: GenHlth (0.4057)
+2026-07-31 20:44:58,476 | INFO | M05-PHASE5 | PHASE 5 EXECUTED SUCCESSFULLY
+2026-07-31 20:44:58,477 | INFO | M05-PHASE5 | ========================
